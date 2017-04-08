@@ -15,3 +15,7 @@ body {
     @include border-top-radius(0px);
     @include border-bottom-radius(50px);
 }
+
+.container .jumbotron {
+    @include gradient-vertical($start-color: #555, $end-color: #333, $start-percent: 0%, $end-percent: 100%);
+}
